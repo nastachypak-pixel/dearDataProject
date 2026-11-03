@@ -1,0 +1,5 @@
+Requirements of the project:
+1. I would need to collect at least 100 data.
+2. I would need to create a sketch in Proccesing to visualize it.
+3. I will create the sketch using   SCAMPER technique.
+4. I will use class and objects structure to encode  and display the data. 

@@ -23,10 +23,10 @@ void drawHouse(float x1, float y1, float size) {
 
   float x3 = x1 + roofWidth;
 
-  fill(255, 0, 0);
+  fill	(156,91,42);
   triangle(x1, y1, x2, y2, x3, y1);
 
-  fill(0, 255, 0);
+  fill	(242,236,226);
   rect(x1, y1, houseWidth, houseHeight);
 
   float doorWidth = houseWidth * 0.35;
@@ -35,6 +35,6 @@ void drawHouse(float x1, float y1, float size) {
   float doorX = x1 + (houseWidth - doorWidth)/2;
   float doorY = y1 + houseHeight - doorHeight;
 
-  fill(0, 0, 255);
+  fill 	(43,59,0);
   rect(doorX, doorY, doorWidth, doorHeight);
 }
